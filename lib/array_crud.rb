@@ -12,7 +12,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  array2 = ["element2"]
+  array2 = ["wow"]
   array2.unshift
 end
 
