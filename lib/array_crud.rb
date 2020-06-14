@@ -9,10 +9,8 @@ end
 
 
 def add_element_to_end_of_array(array, element)
-  array1 = ["element1"]
   array1 << "arrays!"
 end
-print add_element_to_end_of_array
 
 def add_element_to_start_of_array(array, element)
   array2 = ["wow"]
