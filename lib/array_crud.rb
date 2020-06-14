@@ -1,30 +1,28 @@
 def create_an_empty_array
   []
 end
-puts create_an_empty_array
+
 
 def create_an_array
   ["element1", "element2", "element3", "element4"]
 end
-puts create_an_array
+
 
 def add_element_to_end_of_array(array, element)
   array1 = ["element1"]
   array1 << "arrays!"
 end
-puts add_element_to_end_of_array
+print add_element_to_end_of_array
 
 def add_element_to_start_of_array(array, element)
   array2 = ["wow"]
   array2.unshift
 end
-puts add_element_to_start_of_array
 
 def remove_element_from_end_of_array(array)
   array3 = ["removeThis", "arrays!"]
   array3.pop
 end
-puts remove_element_from_end_of_array
 
 def remove_element_from_start_of_array(array)
 
